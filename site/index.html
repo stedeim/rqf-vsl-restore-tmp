@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The Current Résumé Quick Fix — a $9.99 workbook to clean up the résumé you’re already using. Free 5-minute training by email. Not a job guarantee.">
+<title>The Current Résumé Quick Fix — $9.99</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+  :root{
+    --bg:#f7f4ef; --ink:#1a1a1a; --muted:#5c574e; --card:#ffffff; --line:#e4ddd2;
+    --accent:#1f4d3a; --accent-2:#c45c26; --accent-soft:#e8f0ec; --warn:#6b5a1e;
+    --radius:14px; --shadow:0 12px 40px -18px rgba(26,26,26,.28); --max:720px;
+  }
+  *{box-sizing:border-box} html{scroll-behavior:smooth}
+  body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55;font-size:17px;-webkit-font-smoothing:antialiased}
+  a{color:var(--accent)} .wrap{max-width:var(--max);margin:0 auto;padding:0 18px}
+  header.top{position:sticky;top:0;z-index:10;background:rgba(247,244,239,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .top-in{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0}
+  .brand{font-weight:700;font-size:14px;letter-spacing:.02em} .brand span{color:var(--muted);font-weight:500}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 20px;border-radius:999px;font-weight:700;font-size:15px;text-decoration:none;border:none;cursor:pointer;transition:transform .12s ease, opacity .12s ease}
+  .btn:active{transform:scale(.98)} .btn-buy{background:var(--accent-2);color:#fff} .btn-buy:hover{opacity:.94}
+  .btn-ghost{background:transparent;color:var(--ink);border:1px solid var(--line)} .btn-block{width:100%}
+  .price-chip{display:inline-flex;align-items:center;gap:6px;background:var(--accent-soft);color:var(--accent);font-size:13px;font-weight:700;padding:6px 10px;border-radius:999px}
+  .hero{padding:36px 0 28px} .eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:0 0 12px}
+  h1{font-size:clamp(28px,7vw,40px);line-height:1.12;margin:0 0 14px;letter-spacing:-.02em}
+  .lede{color:var(--muted);margin:0 0 22px;font-size:clamp(16px,4.2vw,18px)}
+  .cta-row{display:flex;flex-direction:column;gap:10px;margin:22px 0 10px}
+  @media(min-width:520px){.cta-row{flex-direction:row;align-items:center}.cta-row .btn{width:auto}}
+  .trust{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+  .trust span{font-size:12px;color:var(--muted);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 10px}
+  section{padding:28px 0} section.alt{background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  h2{font-size:clamp(22px,5.5vw,28px);margin:0 0 12px;letter-spacing:-.015em;line-height:1.2} h3{font-size:17px;margin:0 0 6px}
+  .sub{color:var(--muted);margin:0 0 18px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow)}
+  .video-shell{position:relative;width:100%;aspect-ratio:9/16;max-height:560px;background:#111;border-radius:12px;overflow:hidden;display:flex;align-items:center;justify-content:center;color:#ddd;border:1px solid #222}
+  .video-shell video,.video-shell iframe{width:100%;height:100%;border:0;object-fit:contain;background:#000}
+  .gate-note{margin:14px 0 0;padding:12px 14px;background:var(--accent-soft);border-radius:10px;font-size:14px;color:var(--accent)}
+  .embed-slot{margin-top:16px;padding:4px 0;border:none;border-radius:12px;background:transparent;text-align:left}
+  .list{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+  .list li{display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+  .list .n{width:28px;height:28px;border-radius:8px;background:var(--accent);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center}
+  .list p{margin:0;color:var(--muted);font-size:14px}
+  .stack{display:grid;gap:10px}
+  .stack .item{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+  .stack .check{color:var(--accent);font-weight:700}
+  .buy-box{text-align:center;padding:22px 18px}
+  .buy-box .amount{font-size:42px;font-weight:800;letter-spacing:-.03em;margin:8px 0 4px}
+  .disclaimer{margin-top:18px;padding:14px 16px;background:#fff8e8;border:1px solid #edd9a0;border-radius:12px;font-size:13px;color:var(--warn);line-height:1.5}
+  footer{padding:36px 0 48px;font-size:13px;color:var(--muted)}
+  footer .links{display:flex;flex-wrap:wrap;gap:12px 18px;margin:14px 0 18px}
+  footer .links a{color:var(--muted);text-decoration:underline;text-underline-offset:3px}
+  .draft-banner{background:#1a1a1a;color:#f5f5f5;font-size:12px;text-align:center;padding:8px 12px;letter-spacing:.04em}
+  .ps{margin-top:16px;font-size:14px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <div class="brand">Current Résumé Quick Fix <span>· $9.99</span></div>
+    <a class="btn btn-buy" href="https://stedeim.gumroad.com/l/gqaolvz" target="_blank" rel="noopener">Buy — $9.99</a>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Workbook · Instant download · $9.99</p>
+      <h1>Your résumé is current. The job market isn’t reading it that way.</h1>
+      <p class="lede">The Current Résumé Quick Fix is a short workbook that walks you through cleaning up a real résumé — the one you’re already using — so it reads clear, current, and easier for a human (and a scanner) to follow. Free 5-minute training by email. Full workbook: <strong>$9.99</strong>.</p>
+      <div class="cta-row">
+        <a class="btn btn-buy" href="https://stedeim.gumroad.com/l/gqaolvz" target="_blank" rel="noopener">Buy the workbook — $9.99</a>
+        <a class="btn btn-ghost" href="#free-training">Get the free 5-minute training</a>
+      </div>
+      <div class="trust">
+        <span>Workbook</span><span>$9.99</span><span>Instant download</span><span>Not a job guarantee</span>
+      </div>
+    </div>
+  </section>
+  <section class="alt" id="free-training">
+    <div class="wrap">
+      <p class="price-chip">Free 5-minute training</p>
+      <h2>Get the free 5-minute training</h2>
+      <p class="sub">Enter your email to unlock the free 5-minute training. Or skip straight to the $9.99 workbook if you’re ready.</p>
+      <div class="card">
+        <p class="gate-note" style="margin-top:0"><strong>Email first:</strong> enter your email to unlock the free 5-minute training. Buying the workbook ($9.99) never requires an email gate.</p>
+        <div class="embed-slot" id="beehiiv-embed"
+             data-beehiiv-pub="pub_51801780-b9f7-45bb-955a-6386674a6eff"
+             data-form-name="RQF — Landing subscribe"
+             data-form-id="a39ae64d-061d-4649-9a88-f6ba146bc432"
+             data-cta="Get the free 5-minute training"
+             data-source-field="source"
+             data-source-field-id="53f67c5d-68b8-4c62-9f65-b8081e8277ba">
+          <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="a39ae64d-061d-4649-9a88-f6ba146bc432"></script>
+        </div>
+        <div class="video-shell" id="vsl-embed" aria-label="Training locked until email" style="margin-top:16px">
+          <div style="text-align:center;padding:28px;max-width:300px">
+            <strong style="display:block;color:#fff;margin-bottom:8px">Training locked</strong>
+            <p style="margin:0;font-size:13px;color:#aaa;line-height:1.45">Submit your email above. You’ll land on the unlock page with the full 5-minute training.</p>
+          </div>
+        </div>
+        <p class="sub" style="margin-top:10px;font-size:13px">Already subscribed? <a href="/thank-you">Open the free training</a>.</p>
+      </div>
+    </div>
+  </section>
+  <section id="whats-inside">
+    <div class="wrap">
+      <h2>What’s inside — $9.99</h2>
+      <p class="sub">A workbook, not a 6-week course. Work on the file you already have.</p>
+      <div class="stack">
+        <div class="item"><span class="check">✓</span><div><h3>Work on the résumé you have</h3><p class="sub" style="margin:0">Open the file you’re already sending. Stop starting from a blank template every weekend.</p></div></div>
+        <div class="item"><span class="check">✓</span><div><h3>Clarity over fluff</h3><p class="sub" style="margin:0">Cut vague lines. Put what you actually did in plain language. Feel less like you’re performing.</p></div></div>
+        <div class="item"><span class="check">✓</span><div><h3>Current-market hygiene</h3><p class="sub" style="margin:0">Spacing, sections, keywords that match the role — without stuffing nonsense. Send with a clearer head.</p></div></div>
+        <div class="item"><span class="check">✓</span><div><h3>One sitting, not a long course</h3><p class="sub" style="margin:0">Short workbook. Do the pages. Close the laptop. Move on.</p></div></div>
+        <div class="item"><span class="check">✓</span><div><h3>Keep your voice</h3><p class="sub" style="margin:0">You’re not becoming a corporate clone. You’re making your real value easier to see.</p></div></div>
+        <div class="item"><span class="check">✓</span><div><h3>Prompts + cleanup steps</h3><p class="sub" style="margin:0">Digital workbook (PDF) you apply to your own résumé — plus responsible AI editing prompts where useful.</p></div></div>
+      </div>
+      <div class="card" style="margin-top:18px">
+        <h3 style="margin-top:0">You’re not lazy. You’re tired of rewriting the same page and still hearing nothing.</h3>
+        <p class="sub" style="margin:0">This isn’t a career coaching program. It’s a <strong>workbook</strong>: prompts, cleanup steps, and examples so you can fix what’s already on the page — today. Preview the idea free in five minutes (email). If you want the full pages, buy the workbook for <strong>$9.99</strong>.</p>
+      </div>
+    </div>
+  </section>
+  <section class="alt" id="how">
+    <div class="wrap">
+      <h2>One sitting — a focused cleanup</h2>
+      <p class="sub">Keep the truth. Cut the fluff. Make what you do easier to see.</p>
+      <ol class="list">
+        <li><span class="n">1</span><div><h3>10 min — Audit</h3><p>Scan your résumé. Tag Keep / Review / Revise.</p></div></li>
+        <li><span class="n">2</span><div><h3>10 min — Headline</h3><p>Build a clearer professional headline for the role you want now.</p></div></li>
+        <li><span class="n">3</span><div><h3>15 min — Summary + one bullet</h3><p>Rewrite one summary and one strong evidence-led bullet.</p></div></li>
+        <li><span class="n">4</span><div><h3>10 min — Accuracy check</h3><p>Fact-check every claim so it still sounds like you.</p></div></li>
+      </ol>
+    </div>
+  </section>
+  <section id="buy">
+    <div class="wrap">
+      <div class="card buy-box">
+        <p class="eyebrow" style="margin-bottom:4px">Workbook · One-time digital download</p>
+        <h2 style="margin-bottom:0">The Current Résumé Quick Fix</h2>
+        <div class="amount">$9.99</div>
+        <p class="sub" style="margin-bottom:18px">Instant delivery via Gumroad after checkout.</p>
+        <a class="btn btn-buy btn-block" href="https://stedeim.gumroad.com/l/gqaolvz" id="gumroad-cta" data-gumroad-url="https://stedeim.gumroad.com/l/gqaolvz" target="_blank" rel="noopener">Buy the workbook — $9.99</a>
+        <p style="font-size:12px;color:var(--muted);margin:12px 0 0">Opens Gumroad checkout in a new tab</p>
+        <div class="disclaimer"><strong>Honest note:</strong> This workbook helps you improve how your experience is written and organized. It does <strong>not</strong> guarantee interviews, offers, or a job. Hiring decisions stay with employers. You are responsible for verifying every fact you use in your résumé.</div>
+        <p class="ps"><strong>P.S.</strong> If your résumé is open right now, you don’t need another 40-hour course. You’re getting a $9.99 workbook built for a quick, honest cleanup — plus a free 5-minute training while you decide. Not a job guarantee. Just a clearer page.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <strong style="color:var(--ink)">Support &amp; policies</strong>
+    <p style="margin:8px 0 0">Questions or refunds: <a href="mailto:info@agencycrusade.com">info@agencycrusade.com</a> · <strong>30-day refunds</strong> from purchase (Owner locked) · typical reply within 2 business days.</p>
+    <div class="links">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="https://stedeim.gumroad.com/l/gqaolvz" target="_blank" rel="noopener">Buy $9.99</a>
+      <a href="#free-training">Free training</a>
+    </div>
+    <p>© <span id="y"></span> Current Résumé Quick Fix. Separate list from SubQuotes / focusabvantage. Draft for Owner review via Kwaku — do not publish.</p>
+  </div>
+</footer>
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+  (function () {
+    var params = new URLSearchParams(window.location.search);
+    var raw = (params.get('utm_source') || '').toLowerCase().trim();
+    var source = 'landing';
+    if (raw === 'tiktok') source = 'tiktok';
+    else if (raw === 'facebook' || raw === 'fb' || raw === 'meta') source = 'facebook';
+    else if (raw === 'landing') source = 'landing';
+    window.__rqfSource = source;
+    try { sessionStorage.setItem('rqf_source', source); } catch (e) {}
+    var slot = document.getElementById('beehiiv-embed');
+    if (slot) slot.setAttribute('data-capture-source', source);
+  })();
+</script>
+</body>
+</html>
